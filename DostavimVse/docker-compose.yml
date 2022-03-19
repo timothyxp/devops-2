@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+
+  db:
+    build: ./db
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "-uroot", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 15
+  db-init:
+    build: "."
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["java", "-jar", "/init_base.jar"]

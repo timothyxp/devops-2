@@ -1,0 +1,8 @@
+/home/timofey/devops-2/task2/cmake-with-flask/CMakeFiles/edit_cache.dir
+/home/timofey/devops-2/task2/cmake-with-flask/CMakeFiles/rebuild_cache.dir
+/home/timofey/devops-2/task2/cmake-with-flask/B/CMakeFiles/edit_cache.dir
+/home/timofey/devops-2/task2/cmake-with-flask/B/CMakeFiles/ClassLib.dir
+/home/timofey/devops-2/task2/cmake-with-flask/B/CMakeFiles/rebuild_cache.dir
+/home/timofey/devops-2/task2/cmake-with-flask/C/CMakeFiles/edit_cache.dir
+/home/timofey/devops-2/task2/cmake-with-flask/C/CMakeFiles/C.dir
+/home/timofey/devops-2/task2/cmake-with-flask/C/CMakeFiles/rebuild_cache.dir
